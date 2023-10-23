@@ -41,45 +41,6 @@ Create a new project and cluster.
 Go to the dashboard and copy the connection string.
 Go to .env file and save DB_LINK.
 
-# Installation
-1. Clone the repository:
-
-git clone https://github.com/MehraDevesh2022/CricketWeapon-Store.git
-cd CricketWeapon-Store
-
-2. Install dependencies:
-
-npm install
-cd frorntend
-npm install
-cd ..
-
-3. Create a config folder inside the backend directory of the project and then create a .env file inside the config folder and add the following:
-
-PORT = 5000
-DB_LINK ="mongodb+srv://<username>:<password>@<cluster-url>/<database-name>?retryWrites=true&w=majority"
-NODE_ENV = production
-JWT_SECRET = <jwt-secret-key>
-JWT_EXPIRE = 5d
-COOKIE_EXPIRE = 5
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=465
-SMTP_SERVICE = gmail
-SMTP_MAIL = <smtp-email>
-SMTP_PASSWORD = <smtp-password>
-SMTP_PASS = <smtp-password>
-CLOUDINARY_NAME = <cloudinary-name>
-API_KEY = <api-key>
-API_SECRET = <api-secret>
-CLOUDINARY_URL=cloudinary://<api-key>:<api-secret>@<cloudinary-name>
-FRONTEND_URL = http://localhost:3000
-STRIPE_API_KEY = <stripe-api-key>
-STRIPE_SECRET_KEY = <stripe-secret-key>
-
-4. Run the app:
-
-cd backend &&
-npm start
 # Feature	Description
 Sales Analytics	Gain insights into sales trends and popular products
 Dynamic Coupons	Create and manage targeted coupons
